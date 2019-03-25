@@ -35,6 +35,8 @@
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-net.version>3.6</commons-net.version>
         <aspectj.version>1.9.1</aspectj.version>
+        <redisson.version>3.10.2</redisson.version>
+        <jedis.version>3.0.1</jedis.version>
     </properties>
 
     <dependencies>
@@ -188,14 +190,14 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>3.0.1</version>
+            <version>${jedis.version}</version>
         </dependency>
 
         <!-- redisson -->
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
-            <version>${aspectj.version}</version>
+            <version>${redisson.version}</version>
         </dependency>
 
         <dependency>
